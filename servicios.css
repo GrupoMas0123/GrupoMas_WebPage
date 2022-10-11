@@ -1,0 +1,24 @@
+.contacto-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.t-center {
+    text-align: center;
+}
+BODY 
+
+.titulo {
+    background-color: rgb(233, 176, 149);
+    text-align: center;
+}
+
+.footer1 {
+    text-align: center;
+}
+
+.footer2 {
+    text-align: right;
+}
+
