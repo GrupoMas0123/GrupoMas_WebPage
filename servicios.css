@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+#serv-img {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background: rgb(50, 11, 189);
+    color: white;
+}
 .t-center {
     text-align: center;
 }
