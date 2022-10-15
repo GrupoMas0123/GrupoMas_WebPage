@@ -1,0 +1,31 @@
+header {
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.index-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.index-nav li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px;
+    padding: 0;
+}
+
+#img_logo {
+    width: 100px;
+}
