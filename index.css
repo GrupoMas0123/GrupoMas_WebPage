@@ -2,7 +2,7 @@ header {
     position: sticky;
     top: 0px;
     margin: 0px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.527);
 }
 
 .index-nav {
@@ -18,7 +18,7 @@ header {
 .index-nav li a {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
     list-style-type: none;
     text-decoration: none;
@@ -27,5 +27,5 @@ header {
 }
 
 #img_logo {
-    width: 100px;
+    width: 300px;
 }
