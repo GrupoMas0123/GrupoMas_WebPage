@@ -26,13 +26,19 @@ header {
     padding: 0;
 }
 
-#img-logo {
+#img_logo {
     width: 150px;
 }
 
 #quienes_somos {
     display: block;
     margin: 0px auto;
+}
+
+#img_equipo {
+    width: 100px;
+        
+
 }
 
 .footer1 {
