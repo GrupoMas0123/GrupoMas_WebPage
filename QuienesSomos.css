@@ -37,9 +37,31 @@ header {
 
 #img_equipo {
     width: 100px;
-        
+    }
 
-}
+.box1 {
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+        padding: 25px;
+        border: 1px solid black;
+      }
+
+.box2 {
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+        padding: 25px;
+        border: 1px solid black;
+      }
+
+.box3 {
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+        padding: 25px;
+        border: 1px solid black;
+      }
 
 .footer1 {
     text-align: center;
