@@ -1,7 +1,40 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-top: 0px; /* Distanciamiento para no interferir con navbar */
+    position: relative;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+    background-color: #40CFFF;
+}
+
 .contacto-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+}
+
+.contacto-nav li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px;
+    padding: 0;
+}
+
+#img-logo {
+    width: 200px;
 }
 
 .t-center {
