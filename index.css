@@ -1,5 +1,5 @@
 header {
-    position: sticky;
+    
     top: 0px;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.527);
@@ -29,6 +29,24 @@ header {
 #img_logo {
     width: 300px;
 }
+
+.texto-alin {
+    text-align: center;
+}
+
+.BigBox {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+}
+
+  .box {        
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    padding: 25px;
+    
+ }
 
 .footer {
     color:antiquewhite;
