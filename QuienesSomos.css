@@ -33,6 +33,7 @@ header {
 #quienes_somos {
     display: block;
     margin: 0px auto;
+    width: 1300px;
     }
 
 #img_equipo {
@@ -45,7 +46,7 @@ header {
 
 }
 
-    .BigBox {
+.BigBox {
         display: flex;
         flex-direction: row;  
         justify-content: center;  
