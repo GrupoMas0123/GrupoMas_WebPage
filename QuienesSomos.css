@@ -40,6 +40,11 @@ header {
     float: left;
     }
 
+.texto-alin {
+    text-align: center;
+
+}
+
     .BigBox {
         display: flex;
         flex-direction: row;    
@@ -55,35 +60,6 @@ header {
         
       }
 
-/*
-    .box1 {
-        
-        width: 350px;
-        height: 300px;
-        margin: 10px;
-        padding: 25px;
-        border: 1px solid black;
-        
-      }
-
-.box2 {
-        width:350px;
-        height: 350px;
-        margin: 10px;
-        padding: 25px;
-        border: 1px solid black;
-        
-      }
-
-.box3 {
-        width: 350px;
-        height: 350px;
-        margin: 10px;
-        padding: 25px;
-        border: 1px solid black;
-      }
-
-*/
 
 .footer1 {
     text-align: center;
