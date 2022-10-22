@@ -40,13 +40,13 @@ header {
     justify-content: center;
 }
 
-  .box {        
+.box {        
     width: 350px;
     height: 300px;
     margin: 10px;
     padding: 25px;
     
- }
+}
 
 .footer {
     color:antiquewhite;

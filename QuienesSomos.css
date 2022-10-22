@@ -5,7 +5,7 @@ header {
     background-color: rgba(255, 0, 0, 0.719);
 }
 
-.quienessomos-nav {
+.ar-quienessomos-nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -15,7 +15,7 @@ header {
     padding: 0;
 }
 
-.quienessomos-nav li a {
+.ar-quienessomos-nav li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,39 +26,38 @@ header {
     padding: 0;
 }
 
-#img_logo {
+#ar-img_logo {
     width: 150px;
 }
 
-#quienes_somos {
+#ar-quienes_somos {
     display: block;
     margin: 0px auto;
     width: 1300px;
     }
 
-#img_equipo {
+#ar-img_equipo {
     width: 100px;
     float: left;
     }
 
-.texto-alin {
+.ar-texto-alin {
     text-align: center;
-
 }
 
-.BigBox {
+.ar-BigBox {
         display: flex;
         flex-direction: row;  
         justify-content: center;  
     }
 
-      .box {        
+    .ar-box {        
         width: 350px;
         height: 300px;
         margin: 10px;
         padding: 25px;
         border: 1px solid black;
-     }
+    }
 
 .footer {
     color:antiquewhite;
@@ -72,7 +71,6 @@ header {
     display: flex;
     justify-content: center;
     gap: 4rem;
-
 }
 
 .footer2 {
