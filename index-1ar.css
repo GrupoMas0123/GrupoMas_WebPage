@@ -29,6 +29,16 @@ header {
     width: 300px;
 }
 
+#img_home {
+    width: 1900px;
+    height: 1100px;
+}
+
+#img_serv {
+    width: 300px;
+    height: 300px;
+}
+
 .texto-alin {
     text-align: center;
 }
@@ -44,6 +54,7 @@ header {
     height: 300px;
     margin: 10px;
     padding: 25px;
+    
 }
 
 .footer {
@@ -52,12 +63,13 @@ header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
-}
+        }
 
 .footer1 {
     display: flex;
     justify-content: center;
     gap: 4rem;
+
 }
 
 .footer2 {
