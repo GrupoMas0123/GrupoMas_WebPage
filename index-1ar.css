@@ -1,7 +1,9 @@
+/*INICIO DISEÑO HEADER*/
 header {
     top: 0px;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.527);
+    
 }
 
 .index-nav {
@@ -29,6 +31,7 @@ header {
     width: 300px;
 }
 
+/*INICIO DISEÑO HOMEPAGE*/
 #img_home {
     width: 1900px;
     height: 1100px;
@@ -41,6 +44,12 @@ header {
 
 .texto-alin {
     text-align: center;
+}
+
+.titulo-alin {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 7px;
 }
 
 .BigBox {
