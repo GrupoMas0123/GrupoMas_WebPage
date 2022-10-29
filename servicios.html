@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style> 
-        body {font-family: 'Montserrat', sans-serif;
-            font-size: 18px;
-            }
-    </style>
+
+    <!-- Icono para menú tipo hamburguesa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Hoja de estilos local -->
+    <link rel="stylesheet" href="css/gmas-global.css">
+    <link rel="stylesheet" href="css/gmas-servicios.css">
+
+    <!-- Definición de funciones -->
+    <script src="js/scripts.js"></script>
+
+
     <title> GRUPOMAS - servicios </title>  <link rel="shorcuticon" href="Img/favicon(2).png" alt="favicon(2)">
     <link rel="stylesheet" href="servicios.css">
 </head>
 <body>
 
-    <header> 
-        <nav id="nav-serv">
-            <ul class="contacto-nav">
-                <img id="img-logo" src="Img/logo(2).png" alt="logo(2)">
-                <li> <a href="index.html"> Inicio </a>
-                <li> <a href="quienessomos.html"> Quienes somos </a>
-                <li> <a href="servicios.html"> Servicios </a>
-                <li> <a href="contacto.html"> Contacto </a>
-            </ul>    
-        </nav>
+    <header class="header-inicio">
+        <img src="Img/logo.png" class="img-logo">
     </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html">Inicio</a>
+        <a href="quienessomos.html">Quienes somos</a>
+        <a href="servicios.html" class="active">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
 
     <main>
         <div id="serv-cont">      

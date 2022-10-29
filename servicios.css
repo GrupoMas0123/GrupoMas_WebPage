@@ -1,13 +1,20 @@
 
 body {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     width: 100vw;
     margin: 10px;
     }
-    
+
+header {
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+}
+
+/*
 header {
     display: flex;
     position: sticky;
@@ -18,6 +25,8 @@ header {
     height: 20vh;
     align-items: center;
 }
+*/
+
 #nav-serv {
     display: flex;
     justify-content: center;

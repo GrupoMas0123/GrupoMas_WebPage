@@ -17,6 +17,7 @@ header {
     background-color: #40CFFF;
 }
 
+/*
 .contacto-nav {
     display: flex;
     flex-direction: row;
@@ -41,7 +42,24 @@ header {
 #img-logo {
     width: 200px;
 }
+*/
 
 .t-center {
     text-align: center;
+}
+
+.footer {
+    color:antiquewhite;
+    background-color: rgba(0, 0, 0, 0.541);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 100vw;
+        }
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100vw;
 }
