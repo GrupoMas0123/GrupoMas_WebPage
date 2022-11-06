@@ -1,0 +1,342 @@
+/* Estilos generales - Proyecto Grupo MAS */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.seccion-centro {
+    text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo-pagina {
+    width: 100%;
+}
+
+.titulo-animado {
+    width: 100%;
+    animation-name: cambiarColor;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes cambiarColor {
+    0% {
+        background: #ff4848;
+    }
+  
+    /* Primer fotograma */
+    50% {
+        background: #ffff00;
+    }
+  
+    /* Segundo fotograma */
+    100% {
+        background: #40cfff;
+    }
+}
+
+.img-equipo {
+    width: 100px;
+    float: left;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-integrante {        
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
+}
+
+.box-seccion {        
+    margin: 10px;
+    padding: 25px;
+    border: 0px;
+    /* border: 1px solid black; */
+    width: 80%;
+    height: auto;
+    align-self: flex-start;
+}
+
+.box-seccion-contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-seccion {
+    height: 220px;
+    width: auto;
+}
+
+input[type=text] {
+    width: 98%;
+}
+
+input[type=email] {
+    width: 98%;
+}
+
+input[type=tel] {
+    width: 98%;
+}
+
+.seccion-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-check {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nota-especial-form {
+    color: #888888;
+}
+
+.boton-accion {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.corp-text-footer {
+    text-align: center;
+}
+
+.flex-container-social {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-social > div {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    width: 100%;
+    top: 0;
+    background-color: #333333;
+    overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+  
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    body {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .bigbox {
+        flex-direction: column;
+    }
+    .container-form {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .container-table {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .img-logo {
+        width: 200px;
+        height: auto;
+    }
+    .titulo-animado {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .corp-text-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .social-img {
+        width: 20px;
+        height: auto;
+        margin: 6px;
+        padding: 6px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .bigbox {
+        flex-direction: column;
+    }
+    .container-form {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .container-table {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .img-logo {
+        width: 200px;
+        height: auto;
+    }
+    .titulo-animado {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .corp-text-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .social-img {
+        width: 20px;
+        height: auto;
+        margin: 6px;
+        padding: 6px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    .bigbox {
+        flex-direction: column;
+    }
+    .container-form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .container-table {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .img-logo {
+        width: 300px;
+        height: auto;
+    }
+    .titulo-animado {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .corp-text-footer {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .social-img {
+        width: 24px;
+        height: auto;
+        margin: 8px;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+    .bigbox {
+        flex-direction: row;
+    }
+    .container-form {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .container-table {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .img-logo {
+        width: 400px;
+        height: auto;
+    }
+    .titulo-animado {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .corp-text-footer {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .social-img {
+        width: 28px;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+}
