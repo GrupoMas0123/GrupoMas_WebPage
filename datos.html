@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icono para menú tipo hamburguesa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Hoja de estilos local -->
+    <link rel="stylesheet" href="css/gmas-global.css">
+    <link rel="stylesheet" href="css/gmas-contacto.css">
+
+    <!-- Definición de funciones -->
+    <script src="js/scripts.js"></script>
+
+    <title>Grupo MAS - Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="img-logo">
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html">Inicio</a>
+            <a href="quienessomos.html">Quiénes somos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html" class="active">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo-pagina">Datos recibidos</h1>
+
+        <div class="container-table">
+            <!-- Inicio del código de ejemplo de la página del curso -->
+            <table>
+                <tr>
+                  <th align="center">Form Field</th>
+                  <th align="center">Field Value</th>
+                </tr>
+            
+                <script language="javascript">
+                  var args = location.search.substr(1).split('&');
+                  for (var i = 0; i < args.length; ++i) {
+                    var parts = args[i].split('=');
+                    if (parts != null) {
+                      var field = parts[0];
+                      var value = parts[1];
+                      if (value == null) {
+                        value = "null"
+                      }
+                      else {
+                        value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                      }
+            
+                      document.writeln('<tr><td align="center">' + field + '</td>');
+                      document.writeln('<td align="center">' + value + '</td></tr>');
+                    }
+                  }
+                </script>
+            
+            </table>
+            <!-- Fin del código de ejemplo de la página del curso -->
+      </div>
+    </main>
+
+    <footer>
+        <div class="corp-text-footer">
+            Grupo MAS - Derechos Reservados - 2022
+        </div>
+        <div class="flex-container-social">
+            <div><a href="#inicio"><img class="social-img" src="img/whatsapp.png"></a></div>
+            <div><a href="#inicio"><img class="social-img" src="img/email.png"></a></div>
+            <div><a href="#inicio"><img class="social-img" src="img/facebook.png"></a></div>
+            <div><a href="#inicio"><img class="social-img" src="img/instagram.png"></a></div>
+            <div><a href="#inicio"><img class="social-img" src="img/linkedin.png"></a></div>
+        </div>
+    </footer>
+</body>
+</html>
